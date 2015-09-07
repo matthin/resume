@@ -1,0 +1,55 @@
+name: Justin Harrison
+education:
+  - school: Algonquin College
+    major:  Computer Engineering Technology
+    start:  2015
+    end:    Present
+projects:
+  - name: GemTracker
+    link: https://github.com/matthin/gemtracker
+    details:
+      - CronJob developed with C++11 and the SFML library. Retrieves daily
+        download statistics for any program or library from Rubygems.org
+      - Web API backend developed with C++11 and SFML. Completely custom built
+        router to handle routing web requests to the correct controller.
+      - Web frontend using HTML5, CSS3, and JavaScript. Displays daily download
+        statistics using HTML5’s canvas.
+
+  - name: SimpleServer
+    link: https://github.com/matthin/SimpleServer
+    details:
+      - HTTP web server developed with C++11. Wrapped POSIX sockets for
+        cross-platfrom support.
+      - Easy end-user configuration using JSON. Works even with multiple
+        domains using the same IP address. Takes inspiration from Nginx’s easy
+        block model configuration.
+      - Thread based like Apache, instead of Nginx-style asynchronous event
+        loop model.
+
+  - name: teamspeak-ruby
+    link: https://github.com/matthin/teamspeak-ruby
+    details:
+      - Ruby wrapper for TeamSpeak 3’s server query API.
+      - Over 4,000 Downloads on RubyGems.org
+      - Unit tested alongside Travis-CI for automatic testing on Git commits.
+experience:
+  - name: Freelance Web Developer
+    start: 2014
+    end: Present
+    details:
+      - Developed Ruby on Rails 4 web application for selling tickets to events
+        (concert, comedy club, etc.). Was built through the month of September
+        2014 for LocalBuy.me
+      - Migrated Teambox to the community ran fork Crewmate, alongside Ruby
+        upgrade from 1.8.7 to 1.9.3 to make use of security fixes and
+        performance improvemnts.
+      - General Linux server maintance such as restoring database backups (MySQL, PostgreSqL), resolving
+        DNS issues, and solving Apache configuration issues.
+skills:
+  - Ruby
+  - C++
+  - JavaScript
+  - Git
+  - Vim
+  - Linux (Ubuntu, Debian)
+
