@@ -1,8 +1,14 @@
 name: Justin Harrison
+email: justin@matthin.com
+website: https://matthin.com
+github: matthin
+linkedin: matthin
+twitter: jmatthin
+skype: jmatthin
 education:
   - school: Algonquin College
     major:  Computer Engineering Technology
-    start:  2015
+    start:  '2015'
     end:    Present
 projects:
   - name: GemTracker
@@ -34,7 +40,7 @@ projects:
       - Unit tested alongside Travis-CI for automatic testing on Git commits.
 experience:
   - name: Freelance Web Developer
-    start: 2014
+    start: '2014'
     end: Present
     details:
       - Developed Ruby on Rails 4 web application for selling tickets to events
