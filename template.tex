@@ -14,8 +14,8 @@
   \noindent {\color{blue}\rule{\textwidth}{1pt}}
 }
 
-\newcommand{\degree}[3]{
-  \noindent #1, #2 \hfill #3
+\newcommand{\degree}[4]{
+  \noindent #1, #2 | #3 GPA \hfill #4
 }
 
 \newcommand{\project}[2]{
@@ -109,7 +109,7 @@
 %\vspace{0.1in}
 \sectionhead{Education}
 <% education.each do |degree| -%>
-  \degree{<%= degree['major'] %>}{<%= degree['school'] %>}{<%= degree['start'] %> - <%= degree['end'] %>}
+\degree{<%= degree['major'] %>}{<%= degree['school'] %>}{<%= degree['gpa'] %>}{<%= degree['start'] %> - <%= degree['end'] %>}
 <% end  %>
 
 \sectionhead{Projects}

@@ -8,6 +8,7 @@ skype: jmatthin
 education:
   - school: Algonquin College
     major:  Computer Engineering Technology
+    gpa: '3.64'
     start:  '2015'
     end:    Present
 projects:
