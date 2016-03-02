@@ -18,6 +18,10 @@
   \noindent #1, #2 | #3 GPA \hfill #4
 }
 
+\newcommand{\award}[2]{
+  \noindent #1 \hfill #2
+}
+
 \newcommand{\project}[2]{
   \noindent #1 \hfill \url{#2}
 }
@@ -112,6 +116,11 @@
 \degree{<%= degree['major'] %>}{<%= degree['school'] %>}{<%= degree['gpa'] %>}{<%= degree['start'] %> - <%= degree['end'] %>}
 <% end  %>
 
+\sectionhead{Awards}
+<% awards.each do |award| -%>
+  \award{<%= award['title'] %>}{<%= award['date'] %>}
+<% end %>
+
 \sectionhead{Projects}
 <% projects.each do |project| -%>
   \project{<%= project['name'] %>}{<%= project['link'] %>}
@@ -125,6 +134,11 @@
 \sectionhead{Work Experience}
 <% experience.each do |job| -%>
   \job{<%= job['name'] %>}{<%= job['start'] %> - <%= job['end'] %>}
+  \begin{itemize}
+  <% job['details'].each do |info| -%>
+    \item <%= info %>
+  <% end %>
+  \end{itemize}
 <% end %>
 
 \end{document}

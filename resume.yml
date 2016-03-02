@@ -11,6 +11,9 @@ education:
     gpa: '3.73'
     start:  '2015'
     end:    Present
+awards:
+  - title: "Dean's Honours List"
+    date: 'Fall 2015'
 projects:
   - name: GemTracker
     link: https://github.com/matthin/gemtracker
