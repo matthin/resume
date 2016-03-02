@@ -19,8 +19,7 @@ projects:
         download statistics for any program or library from Rubygems.org
       - Web API backend developed with C++11 and SFML. Completely custom built
         router to handle routing web requests to the correct controller.
-      - Web frontend using HTML5, CSS3, and JavaScript. Displays daily download
-        statistics using HTML5’s canvas.
+      - Uses SQLite3 for fast and portable data storage / retrieval.
 
   - name: SimpleServer
     link: https://github.com/matthin/SimpleServer
