@@ -39,7 +39,7 @@ projects:
     link: https://github.com/matthin/teamspeak-ruby
     details:
       - Ruby wrapper for TeamSpeak 3’s server query API.
-      - Over 4,000 Downloads on RubyGems.org
+      - Over 5,500 Downloads on RubyGems.org
       - Unit tested alongside Travis-CI for automatic testing on Git commits.
 experience:
   - name: Freelance Web Developer
