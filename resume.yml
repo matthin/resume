@@ -8,12 +8,12 @@ skype: jmatthin
 education:
   - school: Algonquin College
     major:  Computer Engineering Technology
-    gpa: '3.73'
+    gpa: '3.84'
     start:  '2015'
     end:    Present
 awards:
   - title: "Dean's Honours List"
-    date: 'Fall 2015'
+    date: 'Fall 2015, Winter 2016'
 projects:
   - name: GemTracker
     link: https://github.com/matthin/gemtracker
