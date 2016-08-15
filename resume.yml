@@ -20,7 +20,7 @@ projects:
     details:
       - CronJob developed with C++11 and the SFML library. Retrieves daily
         download statistics for any program or library from Rubygems.org
-      - Web API backend developed with C++11 and SFML. Completely custom built
+      - Web API backend developed with C++11 and SFML. Custom built
         router to handle routing web requests to the correct controller.
       - Uses SQLite3 for fast and portable data storage / retrieval.
 
@@ -39,8 +39,9 @@ projects:
     link: https://github.com/matthin/teamspeak-ruby
     details:
       - Ruby wrapper for TeamSpeak 3’s server query API.
-      - Over 5,500 Downloads on RubyGems.org
-      - Unit tested alongside Travis-CI for automatic testing on Git commits.
+      - Over 7,000 Downloads on RubyGems.org
+      - Uses Docker for platform independent unit tests. Also uses Travis CI
+        to run unit tests automatically.
 experience:
   - name: Freelance Web Developer
     start: '2014'
@@ -61,5 +62,5 @@ skills:
   - JavaScript
   - Git
   - Vim
-  - Linux (Ubuntu, Debian)
+  - Linux (Ubuntu, Debian, ArchLinux)
 
