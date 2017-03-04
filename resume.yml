@@ -6,10 +6,11 @@ linkedin: matthin
 phone: 613-981-2840
 education:
   - school: Algonquin College
-    major:  Computer Engineering Technology
-    gpa: '3.85'
-    start:  '2015'
-    end:    Present
+    major:  Computer Engineering
+    type: Advanced Diploma
+    location: Ottawa, Canada
+    gpa: '96\%'
+    range: 2015 - 2016
 awards:
   - title: "Dean's Honours List"
     date: 'Fall 2015, Winter 2016'

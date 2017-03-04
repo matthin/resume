@@ -5,6 +5,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fontawesome}
 \usepackage{tikz}
+\usepackage[default,scale=0.95]{roboto}
 
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -14,12 +15,13 @@
   \noindent {\rule{\textwidth}{1pt}}
 }
 
-\newcommand{\degree}[4]{
-  \noindent #1, #2 | #3 GPA \hfill #4
+\newcommand{\degree}[6]{
+  \noindent #1 \hfill #2 \\
+  #3, #4 | #5 GPA \hfill #6 \\
 }
 
 \newcommand{\award}[2]{
-  \noindent #1 \hfill #2
+  \noindent #1 \hfill #2 \\
 }
 
 \newcommand{\project}[2]{
@@ -73,8 +75,8 @@
 
 %\vspace{0.1in}
 \sectionhead{Education}
-<% education.each do |degree| -%>
-\degree{<%= degree['major'] %>}{<%= degree['school'] %>}{<%= degree['gpa'] %>}{<%= degree['start'] %> - <%= degree['end'] %>}
+<% education.each do |x| -%>
+\degree{<%= x['school'] %>}{<%= x['range'] %>}{<%= x['major'] %>}{<%= x['type'] %>}{<%= x['gpa'] %>}{<%= x['location'] %>}
 <% end  %>
 
 \sectionhead{Awards}
