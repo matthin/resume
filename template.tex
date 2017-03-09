@@ -20,10 +20,6 @@
   #3, #4 | #5 GPA \hfill #6 \\
 }
 
-\newcommand{\award}[2]{
-  \noindent #1 \hfill #2 \\
-}
-
 \newcommand{\project}[2]{
   \noindent #1 \hfill \url{#2}
 }
@@ -76,12 +72,10 @@
 %\vspace{0.1in}
 \sectionhead{Education}
 <% education.each do |x| -%>
-\degree{<%= x['school'] %>}{<%= x['range'] %>}{<%= x['major'] %>}{<%= x['type'] %>}{<%= x['gpa'] %>}{<%= x['location'] %>}
-<% end  %>
-
-\sectionhead{Awards}
-<% awards.each do |award| -%>
-  \award{<%= award['title'] %>}{<%= award['date'] %>}
+  \degree{<%= x['school'] %>}{<%= x['range'] %>}{<%= x['major'] %>}{<%= x['type'] %>}{<%= x['gpa'] %>}{<%= x['location'] %>}
+  <% if x['honours_list'] -%>
+    <%= x['honours_list']['name'] %> \hfill <%= x['honours_list']['dates'] %>
+  <% end %>
 <% end %>
 
 \sectionhead{Projects}

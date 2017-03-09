@@ -11,9 +11,10 @@ education:
     location: Ottawa, Canada
     gpa: '96\%'
     range: 2015 - 2016
-awards:
-  - title: "Dean's Honours List"
-    date: 'Fall 2015, Winter 2016'
+    honours_list:
+      name: "Dean's Honours List"
+      dates: 'Fall 2015, Winter 2016'
+
 projects:
   - name: GemTracker
     link: https://github.com/matthin/gemtracker
