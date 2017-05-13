@@ -5,9 +5,15 @@ github: matthin
 linkedin: matthin
 phone: 613-981-2840
 education:
+  - school: University of Victoria
+    major: Philosophy
+    type: Bachelor of Arts
+    location: Victoria, Canada
+    gpa: 'N/A'
+    range: 2017 - 2021
   - school: Algonquin College
     major:  Computer Engineering
-    type: Advanced Diploma
+    type: Advanced Diploma - Incomplete
     location: Ottawa, Canada
     gpa: '96\%'
     range: 2015 - 2016
